@@ -1,0 +1,119 @@
+html {
+    height: 10vh;
+}
+
+
+#main-header {
+    display: flex;
+    height: 5rem;
+    margin-top: 25px;
+    gap: 5px;
+}
+
+#popCornLogo {
+    background: black;
+    padding-left: 10px;
+}
+
+#main-header-control-panel {
+    background: black;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+}
+
+.main-header-category div {
+    height: 3.4rem;
+    width: 6rem;
+    background: #780000;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+.main-header-category {
+    display: flex;
+    justify-content: center;
+    width: 7.3rem;
+    height: 5rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-header-first-plate {
+    position: absolute;
+}
+
+
+.main-header-second-plate {
+    position: absolute;
+    transform: rotate(22.8deg);
+}
+
+.main-header-label {
+    position: absolute;
+    max-width: 6rem;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Kelly Slab", sans-serif;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.main-header-search-block {
+    flex-grow: 1;
+    padding: 1px;
+    height: 3rem;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    background: #780000;
+}
+
+.main-header-search {
+    outline: none;
+    flex-grow: 2;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Kelly Slab", sans-serif;
+    border-radius: 5px;
+    background: #780000;
+    border: none;
+}
+
+#loupe-image {
+    width: 2.3rem;
+    height: 2.3rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+}
+
+.main-header-user-block {
+    min-width: 3.5rem;
+}
+
+#user-name {
+    font-family: "Kelly Slab", sans-serif;
+    color: white;
+    max-width: 6rem;
+    margin: 0;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#header-user-image {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.header-spacer {
+    flex-grow: 1;
+}
+
+.header-small-spacer {
+    flex-grow: 0.5;
+}
