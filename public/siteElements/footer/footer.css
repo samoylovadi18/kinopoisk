@@ -16,29 +16,36 @@ html {
 }
 
 #main-footer-content {
-    background: rebeccapurple;
     display: flex;
-    width: 600px;
-    max-width: 600px;
+    width: max-content;
+    max-width: 750px;
     gap: 5rem;
 }
 
 .main-footer-support-block {
-    background: red;
-}
-
-.main-footer-help-block {
-    background: green;
-    width: 100px;
-    height: 200px;
-}
-
-.main-footer-download-block {
-    background: orange;
-    width: 100px;
-    height: 200px;
+    flex-grow: 1;
 }
 
 .main-footer-info {
     min-width: 7.65em;
+    line-height: 24px;
+}
+
+.main-footer-block-title {
+    font-size: 24px;
+}
+
+.main-footer-text-descritption {
+    padding: 5px 0px;
+    font-size: 20px;
+    color: #FFFFFFA1;
+}
+
+#main-footer-support-chat-button {
+    font-size: 20px;
+    padding: 25px 26px;
+    color: white;
+    background: #780000;
+    border-radius: 10px;
+    border: none;
 }
