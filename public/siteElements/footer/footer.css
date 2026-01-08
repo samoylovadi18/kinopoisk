@@ -44,8 +44,25 @@ html {
 #main-footer-support-chat-button {
     font-size: 20px;
     padding: 25px 26px;
-    color: white;
+    color: rgba(255, 255, 255, 0.874);
     background: #780000;
     border-radius: 10px;
     border: none;
+}
+
+#main-footer-support-chat-button:active {
+    margin-top: 2px;
+    margin-left: 2px;
+    color: white;
+    background: #9e0101;
+}
+
+#main-footer-support-chat-button:hover {
+    color: white;
+    background: #9e0101;
+    border: solid rgb(236, 190, 184) 0.5px;
+}
+
+.download-button {
+    padding: 3px 0px;
 }
