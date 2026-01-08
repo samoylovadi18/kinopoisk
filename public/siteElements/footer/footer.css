@@ -9,3 +9,36 @@ html {
 .small-footer-spacer {
     height: 4.0rem;
 }
+
+#main-footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+#main-footer-content {
+    background: rebeccapurple;
+    display: flex;
+    width: 600px;
+    max-width: 600px;
+    gap: 5rem;
+}
+
+.main-footer-support-block {
+    background: red;
+}
+
+.main-footer-help-block {
+    background: green;
+    width: 100px;
+    height: 200px;
+}
+
+.main-footer-download-block {
+    background: orange;
+    width: 100px;
+    height: 200px;
+}
+
+.main-footer-info {
+    min-width: 7.65em;
+}
