@@ -1,0 +1,135 @@
+.slider{
+    padding-top: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 60px;
+    position: relative;
+}
+
+.decription{
+    color: rgba(255, 255, 255, 0.63);
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 0px;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.title{
+    margin-top: 10px;
+    font-size: 40px;
+}
+.WhatchNow {
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 15px 50px;
+    background: #780000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px; 
+    left: 1200px; 
+    transition: background 0.3s ease;
+}
+:root {
+    --button-left: 1200px; 
+}
+
+.WhatchNow {
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 15px 50px;
+    background: #780000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px; 
+    left: var(--button-left); 
+    transition: background 0.3s ease, left 0.3s ease;
+    min-width: 300px;
+}
+
+@media (min-width: 2000px) {
+    :root {
+        --button-left: 1300px;
+    }
+}
+
+@media (min-width: 2200px) {
+    :root {
+        --button-left: 1400px;
+    }
+}
+
+@media (min-width: 2400px) {
+    :root {
+        --button-left: 1500px;
+    }
+}
+
+@media (min-width: 2600px) {
+    :root {
+        --button-left: 1600px;
+    }
+}
+
+@media (min-width: 2800px) {
+    :root {
+        --button-left: 1700px;
+    }
+}
+
+@media (min-width: 3000px) {
+    :root {
+        --button-left: 1800px;
+    }
+}
+@media (max-width: 1800px) {
+    :root {
+        --button-left: 1100px;
+    }
+}
+
+@media (max-width: 1600px) {
+    :root {
+        --button-left: 1000px;
+    }
+}
+
+@media (max-width: 1400px) {
+    :root {
+        --button-left: 900px;
+    }
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --button-left: 750px;
+    }
+}
+
+@media (max-width: 1000px) {
+    :root {
+        --button-left: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    :root {
+        --button-left: 450px;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --button-left: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --button-left: 150px;
+    }
+}
