@@ -1,0 +1,68 @@
+html {
+    height: 10vh;
+}
+
+.footer-spacer {
+    height: 8.0rem;
+}
+
+.small-footer-spacer {
+    height: 4.0rem;
+}
+
+#main-footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+#main-footer-content {
+    display: flex;
+    width: max-content;
+    max-width: 750px;
+    gap: 5rem;
+}
+
+.main-footer-support-block {
+    flex-grow: 1;
+}
+
+.main-footer-info {
+    min-width: 7.65em;
+    line-height: 24px;
+}
+
+.main-footer-block-title {
+    font-size: 24px;
+}
+
+.main-footer-text-descritption {
+    padding: 5px 0px;
+    font-size: 20px;
+    color: #FFFFFFA1;
+}
+
+#main-footer-support-chat-button {
+    font-size: 20px;
+    padding: 25px 26px;
+    color: rgba(255, 255, 255, 0.874);
+    background: #780000;
+    border-radius: 10px;
+    border: none;
+}
+
+#main-footer-support-chat-button:active {
+    margin-top: 2px;
+    margin-left: 2px;
+    color: white;
+    background: #9e0101;
+}
+
+#main-footer-support-chat-button:hover {
+    color: white;
+    background: #9e0101;
+    border: solid rgb(236, 190, 184) 0.5px;
+}
+
+.download-button {
+    padding: 3px 0px;
+}
